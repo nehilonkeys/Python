@@ -455,7 +455,3 @@ import math
 #     print(f"{num} is not valid")
 #     num = int(input("Enter a # between 1 - 10: "))
 # print(f"Your number is {num}")
-
-
-
-# Python compound intrest calculator
