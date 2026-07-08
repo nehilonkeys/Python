@@ -459,3 +459,89 @@ import math
 
 
 # Python compound intrest calculator
+# formula - A = P((1+(r/n))^t)
+# A = final amount
+# P = initial principal balance
+# r = interest rate
+# t = number of time periods elapsed
+
+principal = 0
+rate = 0
+time = 0
+
+# while principal <= 0:
+#     principal = float(input("Enter the principal amount: "))
+#     if principal <= 0:
+#         print("Principal can't be less than or equal to zero")
+
+# while rate <= 0:
+#     rate = float(input("Enter the interest rate: "))
+#     if rate <= 0:
+#         print("Interest Rate can't be less than or equal to zero")
+
+# while time <= 0:
+#     time = float(input("Enter the time in years: "))
+#     if time <= 0:
+#         print("Time can't be less than or equal to zero")
+
+# print(principal)
+# print(rate)
+# print(time)
+
+# total = principal * pow(( 1 + (rate/100 )), time)
+# print(f"Balance after {time} year/s: ${total:.2f}")
+
+
+
+#lets allows the user to input value 0
+
+# while principal < 0:
+#     principal = float(input("Enter the principal amount: "))
+#     if principal < 0:
+#         print("Principal can't be less than or equal to zero")
+
+# while rate < 0:
+#     rate = float(input("Enter the interest rate: "))
+#     if rate < 0:
+#         print("Interest Rate can't be less than zero")
+
+# while time < 0:
+#     time = float(input("Enter the time in years: "))
+#     if time < 0:
+#         print("Time can't be less than zero")
+
+
+# total = principal * pow(( 1 + (rate/100 )), time)
+# print(f"Balance after {time} year/s: ${total:.2f}")
+
+#lets explicite it in different way but this allows user to enter zero previously the program already took the values 0 with input
+
+# while True:
+#     principal = float(input("Enter the principal amount: "))
+#     if principal < 0:
+#         print("Principal can't be less than or equal to zero")
+#     else:
+#         break
+
+# while True:
+#     rate = float(input("Enter the interest rate: "))
+#     if rate < 0:
+#         print("Interest Rate can't be less than zero")
+#     else:
+#         break
+
+# while True:
+#     time = float(input("Enter the time in years: "))
+#     if time < 0:
+#         print("Time can't be less than zero")
+#     else:
+#         break
+
+# total = principal * pow(( 1 + (rate/100 )), time)
+# print(f"Balance after {time} year/s: ${total:.2f}")
+
+# for loops = execute a block of code a fixed number of times.
+            #   You can interate over a range, string, sequence, etc.
+
+for x in range(1, 11):
+    print(x)
