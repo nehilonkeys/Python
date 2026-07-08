@@ -1,4 +1,5 @@
 import math
+import time
 
 # # this is my first python program
 # print("Hello, World!")
@@ -467,7 +468,7 @@ import math
 
 principal = 0
 rate = 0
-time = 0
+years = 0
 
 # while principal <= 0:
 #     principal = float(input("Enter the principal amount: "))
@@ -539,3 +540,27 @@ time = 0
 
 # total = principal * pow(( 1 + (rate/100 )), time)
 # print(f"Balance after {time} year/s: ${total:.2f}")
+
+# for loops = execute a block of code a fixed number of times.
+            #   You can interate over a range, string, sequence, etc.
+
+# break
+# for x in range(1,21):
+#     if x == 13:
+#         break
+#     else:
+#         print(x)
+
+# continue
+# for x in range(1,21):
+#     if x == 13:
+#         continue
+#     else:
+#         print(x)
+
+
+
+#countdown timer in python
+time.sleep(3)
+
+print("TIME'S UP")
