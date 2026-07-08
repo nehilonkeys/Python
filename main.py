@@ -466,9 +466,9 @@ import time
 # r = interest rate
 # t = number of time periods elapsed
 
-principal = 0
-rate = 0
-years = 0
+# principal = 0
+# rate = 0
+# years = 0
 
 # while principal <= 0:
 #     principal = float(input("Enter the principal amount: "))
