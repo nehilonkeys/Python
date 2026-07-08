@@ -376,3 +376,86 @@ import math
 #     print("Something went wrong please try again")
 # else:
 #     print(f"Welcome {username}")
+
+
+#indexing = accessing elements of a sequence using [] (indexing operator)
+            # [start : end : step]
+# creditcard_num = "1234-5678-9012-3456"
+
+# print(creditcard_num[0])
+# print(creditcard_num[0:4])
+# print(creditcard_num[0:19])
+# print(creditcard_num[0:19:2])
+# print(creditcard_num[::-1])
+# last_digits = creditcard_num[-4:]
+# print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+# format specifiers = {value:flags} format a value based on what
+                    # flags are inserted
+# :.(number)f = round to that many decimal places (fixed point)
+# :(number) = allocate that many spaces
+# :03 = allocate and zero pad that many spaces
+# :< = left justify
+# :> = right justify
+# :^ = center align
+# :+ = use a plus sign to indicate positive value
+# := = place sign to leftmost position
+# :  = insert a space before positive numbers
+# :, = comma
+
+# price1 = 3000.1234
+# price2 = 9870.1234
+# price3 = -1200.1234
+
+# print(f"Price 1 is ${price1:.1f}")
+# print(f"Price 2 is ${price2:.2f}")
+# print(f"Price 3 is ${price3:.3f}")
+# print(f"Price 1 is ${price1:20}")
+# print(f"Price 2 is ${price2:>20}")
+# print(f"Price 3 is ${price3:<20}")
+# print(f"Price 1 is ${price1:^20}")
+# print(f"Price 2 is ${price2:+}")
+# print(f"Price 3 is ${price3:-}")
+# print(f"Price 1 is ${price1: }")
+# print(f"Price 2 is ${price2:,}")
+# print(f"Price 3 is ${price3:,.2f}")
+
+
+
+
+#while loop = execute some code WHILE some condition remains true
+
+# name = input("Enter your name: ")
+
+# while name == "":
+#     print("You didn't enter your name")
+#     name = input("Enter your name: ")
+# print(f"Hello {name}")
+
+
+
+# age = int(input("Enter your age: "))
+# while age < 0:
+#     print("Age can't be negative")
+#     age = int(input("Enter your age: "))
+# print(f"You are {age} years old!")
+
+
+
+# food = input("Enter a food you like (q to quit): ")
+# while not food == "q":
+#     print(f"you like {food}")
+#     food = input("Enter a food you like (q to quit): ")
+# print("Bye")
+
+
+
+# num = int(input("Enter a # between 1 - 10: "))
+# while num < 1 or num > 10:
+#     print(f"{num} is not valid")
+#     num = int(input("Enter a # between 1 - 10: "))
+# print(f"Your number is {num}")
+
+
+
+# Python compound intrest calculator
